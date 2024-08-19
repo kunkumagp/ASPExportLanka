@@ -123,4 +123,7 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+
+    'asset_url' => env('ASSET_URL', 'https://www.example.com'),
+
 ];
