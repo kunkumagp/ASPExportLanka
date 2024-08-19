@@ -10,13 +10,13 @@
         <meta name="description" content />
         <meta name="author" content />
 
-        <link href="assets/css/vendor.min.css" rel="stylesheet" />
-        <link href="assets/css/app.min.css" rel="stylesheet" />
+        <link href="{{ Vite::asset('resources/theme/assets/css/vendor.min.css') }}" rel="stylesheet" />
+        <link href="{{ Vite::asset('resources/theme/assets/css/app.min.css') }}" rel="stylesheet" />
 
-        <link href="assets/plugins/lity/dist/lity.min.css" rel="stylesheet" />
+        <link href="{{ Vite::asset('resources/theme/assets/plugins/lity/dist/lity.min.css') }}" rel="stylesheet" />
     </head>
 
     <body>
-        <div id="app" class="app">@yield('content')</div>
+        @yield('content')
     </body>
 </html>
